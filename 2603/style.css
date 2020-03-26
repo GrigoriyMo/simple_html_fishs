@@ -1,38 +1,88 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
-    min-width: 320px;
-}
 
-body{
-    padding: 10px ;
-}
-.header {
-    height: 30px;
-    width: 100%;
-    background-color: rgb(42, 34, 158);
+/* 
+    https://devfacts.com/media-queries-breakpoints-2020/
+*/
+
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1600px) { 
+    html, body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        min-width: 320px;
+    }
+    
+    body{
+        padding: 10px ;
+    }
+    .header {
+        width: 100%;
+        background-color: rgb(42, 34, 158);
+    }
+    
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .logo{
+        height: 25px;
+        width: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-image: url(img/logo.png);
+        background-size: contain;
+    }
+    
+    .page-name{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    ul li{
+        display: inline;
+    }
+    
+    ul li a{
+        text-decoration: none;
+    }
+    
+    ul li a:visited {
+        color:black;
+    }
+    
+    .blog-post {
+        width: 600px;
+        margin: 0 auto;
+        border: 1px dotted black;
+    }
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
     
 }
 
-.logo-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .blog-post {
+        width: 400px;
+    }
 }
 
-.logo{
-    height: 25px;
-    width: 25px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background-image: url(img/logo.png);
-    background-size: contain;
+/* Very small devices */
+@media (max-width: 575.98px) { 
+    .blog-post {
+        width: 320px;
+    }
 }
 
-.page-name{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-
-}
