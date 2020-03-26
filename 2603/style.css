@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    min-width: 320px;
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(42, 34, 158);
+    
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+        height: 25px;
+        width: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+}
+
+.page-name{
+
+    color: white;
+
+}
