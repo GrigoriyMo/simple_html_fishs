@@ -1,0 +1,80 @@
+@media (max-width: 1600px) { 
+    html, body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        min-width: 320px;
+    }
+    body{
+        padding: 10px ;
+    }
+    .header {
+        width: 100%;
+        background-color: rgb(42, 34, 158);
+    }
+    
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo{
+        height: 25px;
+        width: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-image: url(img/logo.png);
+    }
+    .page-name{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+    .blog-elem-background{
+        background-size: contain;
+    }
+
+    .info-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: coral;
+    }
+    .inst_style {
+        width: 4em;
+        height: 4em;
+    }   
+
+    .instagramm {
+        
+       
+        background-image: url(img/insta.png);
+    }
+
+
+
+    .contact-elem-background{
+        background-size: contain;
+        
+    }
+
+    .vk_style {
+        width: 4em;
+        height: 4em;
+    }
+
+    
+
+    .vkontakte {
+        background-image: url(img/vkvk.png);
+    }
+
+    .call_style{
+        width: 4em;
+        height: 4em;
+    }
+    .phone{
+        background-image: url(img/call.png);
+    }
+
+    
