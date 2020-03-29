@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="style.css">
+    <script src="gear.js"></script>
 </head>
 <body>
     <header>
         <div class="header"> 
-            <div class="logo-container">
-                <div class="logo blog-elem-background"></div>
-                <div class="page-name">My html blog template</div>
+            <div class="logo_container">
+                <div class="logo blog_elem_background"></div>
+                <div class="page_name">My html blog template</div>
             </div>
         </div>
 
     </header>
 
     <nav>
-        <div class="menu-container">
+        <div class="menu_container">
             <ul>
                 <li><a href="#"> Blog </a></li>
                 <li><a href="#">Blank</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="#" id="contacts">Contacts</a></li>
                 <li><a href="#">About author</a></li>
             </ul>
         </div>
@@ -31,14 +32,25 @@
     <main>
         <article>
             <section>
-                <div class="blog-post">
-                    <div class="blog-post-content">
+                <div class="info_container">
+                    <a href="#"><div class="instagramm contact_elem_background inst_style"></div></a>
+                    <a href="#"><div class="vkontakte contact_elem_background vk_style"></div></a>
+                    <a href="#"><div class="phone contact_elem_background call_style" ></div></a>
+                    <a href="#"><div id="close_info" ></div></a>
+                    
+                </div>
+
+
+
+
+                <div class="blog_post">
+                    <div class="blog_post_content">
                         Hello! This is first post of this blog page!
-                        <div class="post-date-time"> 01.01.01 2020 09:00 </div>
+                        <div class="post_date_time"> 01.01.01 2020 09:00 </div>
                     </div>
-                    <div class="button-container">
-                        <div class="delete-button blog-elem-background button-width">  </div>
-                        <div class="edit-button blog-elem-background button-width">  </div>
+                    <div class="button_container">
+                        <div class="delete_button blog_elem_background button_width">  </div>
+                        <div class="edit_button blog_elem_background button_width">  </div>
                     </div>
                 </div>
             </section>
@@ -48,7 +60,7 @@
                 3. Для всех элементов меню создать страницы с соотв. контентом.
             -->
             <aside>
-                <div class="new-post-block">
+                <div class="new_post_block">
 
                 </div>
             </aside>
@@ -57,7 +69,7 @@
     </main>
 
     <footer>
-        <div class="footer-container">
+        <div class="footer_container">
         <nav> 
 
                 <a href="#">Homeland</a>
