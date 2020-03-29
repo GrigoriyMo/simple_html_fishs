@@ -70,6 +70,7 @@
         background-color: #FFFFCC;
         box-shadow: 0 0 3px;
         
+        
     }
 
     .blog_elem_background{
@@ -163,6 +164,29 @@ footer nav a:visited {
     background-color: coral;
     visibility: hidden;
 }
+
+.author_page {
+    
+    display: flex;  
+    justify-content: space-between;
+    width: 100%;  
+    background-color: coral;
+    visibility: hidden;
+}
+
+.author_page_background {
+    background-size: contain;
+}
+#portrait {
+    
+    background-image: url(img/portrait.png);
+    
+}
+
+.portrait_style{
+    width: 20em;
+    height: 20em;
+}
 .contact_elem_background{
     background-size: contain;
     
@@ -174,6 +198,13 @@ footer nav a:visited {
 }
 
 #close_info {
+    background-image: url(img/exit.png);
+    background-size: contain;
+    width: 1em;
+    height: 1em;
+}
+
+#close_author_page {
     background-image: url(img/exit.png);
     background-size: contain;
     width: 1em;
