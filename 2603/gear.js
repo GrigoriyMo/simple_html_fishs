@@ -19,34 +19,34 @@ window.onload = function(){
 
 
     function contactson(){
-        infocontainer.style.visibility="visible";
-        blogcontainer.style.visibility="hidden";
-        author_page.style.visibility="hidden";  
+        infocontainer.style.display="flex";
+        blogcontainer.style.display="none";
+        author_page.style.display="none";  
         console.log(contactson);
     }
 
     function close_info_field(){
-        infocontainer.style.visibility="hidden";
-        blogcontainer.style.visibility="visible";
+        infocontainer.style.display="none";
+        blogcontainer.style.display="flex";
 
 
     }
 
     function authorpageon(){
-        author_page.style.visibility="visible";
-        blogcontainer.style.visibility="hidden";
-        infocontainer.style.visibility="hidden";
+        author_page.style.display="flex";
+        blogcontainer.style.display="none";
+        infocontainer.style.display="none";
     }
 
     function closeauthorpage(){
-        author_page.style.visibility="hidden";
-        blogcontainer.style.visibility="visible";
+        author_page.style.display="none";
+        blogcontainer.style.display="flex";
     }
 
     function blogopen() {
-        blogcontainer.style.visibility="visible";
-        author_page.style.visibility="hidden";
-        infocontainer.style.visibility="hidden";
+        blogcontainer.style.display="flex";
+        author_page.style.display="none";
+        infocontainer.style.display="none";
     }
 
 }

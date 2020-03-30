@@ -158,20 +158,20 @@ footer nav a:visited {
 }
 
 .info_container{
-    display: flex;
+    display: none;
     width: 100%;
     justify-content: space-between;
     background-color: coral;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .author_page {
     
-    display: flex;  
+    display: none;  
     justify-content: space-between;
     width: 100%;  
     background-color: coral;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .author_page_background {
