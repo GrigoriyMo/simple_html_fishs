@@ -221,14 +221,36 @@ footer nav a:visited {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-    .blog-post {
+    .blog_post {
         width: 400px;
     }
+    .author_page {
+    
+       
+        height:320px;  
+        
+    }
+
+
 }
+
+
+/* cutting down side of author */
+@media (max-width:598px){
+    .author_page {
+    
+       
+        height:200px;  
+        
+    }
+
+
+
+
 
 /* Very small devices */
 @media (max-width: 575.98px) { 
-    .blog-post {
+    .blog_post {
         width: 320px;
     }
 }
